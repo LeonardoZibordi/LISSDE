@@ -1,0 +1,22 @@
+:root{
+    --background: #BAA98D;
+    --header: #99B6BC;
+    --content: #e1e1e1;
+    --buttom: #C4C4C4;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--color-background);
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
